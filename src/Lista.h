@@ -24,10 +24,13 @@ class Lista{
     	Livro* getFirst();
     	void insertBegin(string titulo, string autor, string editora, string ano);
     	void insertEnd(string titulo, string autor, string editora, string ano);
+    	int BuscarLivro(string s);
 };
 
 Lista *LerLivros();
 void separar(string& str, char delim, vector<string>& pedacos);
 void InserirLivro();
+bool InserirUsuario(string usuario);
+bool RealizarEmprestimo(string usuario, Lista* livros);
 
 #endif
