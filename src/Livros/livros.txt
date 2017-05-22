@@ -1,3 +1,5 @@
 Livro_aleatorio Lucas_Nathaniel Saraiva 2017
 titulo autor editora 2014
 senhor_dos_aneis Leonardo Positivo 666
+O_codificador_limpo Robert_C_Martin Alta_Books 2012
+A_queda_sem_paraquedas Segio_Bueno ebm 2012

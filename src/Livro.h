@@ -1,6 +1,7 @@
 /**
   *@file Livro.h
-  *@brief arquivo com as declaracoes das funcoes da classe Livro
+  *@class Livro
+  *@brief Arquivo com as declaracoes das funcoes da classe Livro
   */
 
 #ifndef __LIVRO_H__

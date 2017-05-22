@@ -1,6 +1,7 @@
 /**
   *@file Lista.h
-  *@brief arquivo com as declaracoes das funcoes da Lista
+  *@class Lista 
+  *@brief Arquivo com as declaracoes das funcoes da Lista
   */
 
 #ifndef __LISTA_H__
@@ -25,6 +26,7 @@ class Lista{
     	void insertBegin(string titulo, string autor, string editora, string ano);
     	void insertEnd(string titulo, string autor, string editora, string ano);
     	int BuscarLivro(string s);
+    	void ListarLivros();
 };
 
 Lista *LerLivros();
@@ -32,5 +34,6 @@ void separar(string& str, char delim, vector<string>& pedacos);
 void InserirLivro();
 bool InserirUsuario(string usuario);
 bool RealizarEmprestimo(string usuario, Lista* livros);
+bool VerificarEmprestimo(string usuario);
 
 #endif
